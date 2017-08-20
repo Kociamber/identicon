@@ -1,6 +1,18 @@
 # Identicon
 
-**TODO: Add description**
+**Elixir playground**
+
+This application was written for training purposes. 
+It's generating random GitHub-like avatar .png file basing on string input. 
+
+* Image is built on 5x5 grid. 
+* Color is based on the string input.
+* The same string will always produce the same result.
+* The project is using few Erlang libs, like :egd, :crypto or :binary. 
+
+Example file generated for "string" ;)
+
+![alt text](https://raw.githubusercontent.com/Kociamber/identicon/master/string.png "string.png")
 
 ## Installation
 
@@ -12,8 +24,3 @@ def deps do
   [{:identicon, "~> 0.1.0"}]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
-
